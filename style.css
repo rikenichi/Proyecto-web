@@ -1,0 +1,32 @@
+head{
+    background-color: rgb(33, 31, 31);
+}
+body{
+    background-color: rgb(33, 31, 31);
+}
+#carouselExampleIndicators{
+    margin: auto;
+    width :20%;
+    text-align: center;
+}
+#secd{
+    color: white;
+}
+#secc{
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px 0px;
+    align-items: center;
+    justify-items: center;
+
+
+}
+#nikeb{
+    background-image:url(img/nikefondo.png);
+    background-position:center;
+    background-attachment: fixed;
+}
