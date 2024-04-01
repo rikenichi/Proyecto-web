@@ -6,11 +6,12 @@ body{
 }
 #carouselExampleIndicators{
     margin: auto;
-    width :20%;
+    width :30%;
     text-align: center;
 }
 #secd{
     color: white;
+    grid-gap: 50px 0px;
 }
 #secc{
     color: white;
@@ -19,7 +20,7 @@ body{
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px 0px;
+    grid-gap: 20px 0px;
     align-items: center;
     justify-items: center;
 
@@ -52,24 +53,45 @@ body{
     color: white;
     text-align: center;
 }
-#lk{
-    color: #000000;
-    margin: 0px 16px 0px 0px;
-    padding: 5px 0px;
-    text-indent:800%;
-}
-#nv{
+#nv{ 
     background-color: white;
 }
-#qs{
+#qs{/* quienes somos en la barra */
     text-align: center;
     color: white;
 }
-#loremlk{
+#loremlk{/* Texto lorem de apartado lionkicks */
     text-align: center;
     color: white;
 }
-#flk{
+#flk{/* footer lionkicks(contato) */
     text-align:center;
     color: white;
+}
+#nkv{
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 50px 0px;
+    align-items: center;
+    justify-items: center;
+}
+#lcont{
+    color: white;
+    text-align: left;
+    display: inline-block;
+}
+#contn{
+    text-align: center  ;
+}
+#finpage{
+    color: white;
+}
+#descrZ{
+    color: white;
+    text-align: center;
+}
+#contn2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
 }
