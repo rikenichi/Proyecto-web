@@ -1,8 +1,8 @@
 head{
-    background-color: rgb(33, 31, 31);
+    background-color: rgb(3, 10, 70);
 }
 body{
-    background-color: rgb(33, 31, 31);
+    background-color: rgb(3, 10, 70);
 }
 #carouselExampleIndicators{
     margin: auto;
@@ -28,20 +28,22 @@ body{
 #nikeb{
     background-image:url(img/nike/logonike.png);
     background-position:center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    text-align: center;
+
 }
 #adidasb{
     background-image:url(img/adidas/logoadidas.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    text-align: center;
+
 }
 #pumab{
     background-image:url(img/puma/logopuma.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    text-align: center;
 }
 #f{
     width: 250px;
